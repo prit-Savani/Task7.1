@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/textItemDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Found Apple AirPods\n2 days ago\nAt Burwood campus"
+        android:textSize="16sp"
+        android:paddingBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnRemove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REMOVE"/>
+
+</LinearLayout> 
